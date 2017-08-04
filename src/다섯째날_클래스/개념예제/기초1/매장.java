@@ -3,7 +3,7 @@ package 다섯째날_클래스.개념예제.기초1;
 /**
  * Created by park on 2016-08-17.
  */
-public class 매장 extends 매장관리GUI{
+public class 매장 extends 매장관리{
     상품관리 제품들 = new 상품관리();
 
     public static void main(String[] args) {
@@ -45,4 +45,8 @@ public class 매장 extends 매장관리GUI{
         리포팅하기("===========================");
     }
 }
+// 미션 1:
+// public class 매장 extends 매장관리{ ...}에서
+// 매장 클래스를 매장관리가 아닌 매장관리GUI class에서 상속받고 실행해본다.
+// ** 상속이 왜 필요한지 생각해보는 내용 **
 
