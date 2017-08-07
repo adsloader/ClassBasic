@@ -18,6 +18,17 @@ public class 데이터와변수범위 {
     // 이를 java에서는 멤버필드라고 한다.
     int age = 0;  // 선언과 함께 초기화도 가능하다.
 
+
+    /*
+    if (age == 0){
+         System.out.println("True");
+    }
+    와 같은 코드는 에러이다.
+    이유는 로직(제어문, 함수사용, 기타연산)등은 오로지
+    메소드 안에서만 가능하기 때문이다.
+
+    * */
+
     // main 함수라는 것은 자바가 실행될 때,
     // 처음실행되는 함수이다.
     public static void main(String[] args) {
